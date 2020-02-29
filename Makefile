@@ -8,3 +8,5 @@ build:
 # 要在vim中自动提示，请先运行make autocompletor
 autocompletor:
 	go install ./pkg/...
+stop:
+	ps aux|grep ucm_dev|grep -v grep|awk '{print $$2}'|xargs kill

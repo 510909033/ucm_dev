@@ -23,6 +23,8 @@ func h(w http.ResponseWriter, r *http.Request) {
 		s = config.DomainConfig
 	case "go_empty":
 		s = config.GoEmptyConfig
+	case "go_upload":
+		s = config.GoUploadConfig
 
 	}
 
