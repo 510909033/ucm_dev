@@ -1,0 +1,5 @@
+signal: interrupt
+signal: interrupt
+signal: interrupt
+signal: terminated
+signal: terminated

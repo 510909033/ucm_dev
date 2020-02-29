@@ -1,0 +1,3 @@
+package config
+
+const DomainConfig = `{"code":200,"data":[{"configId":120,"createTime":1552469548000,"environmentId":1,"fileName":"domain","id":7237,"key":"usercenter","project":"Golang_Domain","secure":false,"updateTime":1552469548000,"value":"172.16.9.127:8083","version":"master"},{"configId":120,"createTime":1552299456000,"environmentId":1,"fileName":"domain","id":7216,"key":"baby_root_domain","project":"Golang_Domain","secure":false,"updateTime":1552299456000,"value":"babytree-dev.com","version":"master"},{"configId":120,"createTime":1552387465000,"environmentId":1,"fileName":"domain","id":7225,"key":"baby_cdn_root_domain","project":"Golang_Domain","secure":false,"updateTime":1552387465000,"value":"babytree-dev.com","version":"master"}]}`
