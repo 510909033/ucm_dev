@@ -25,6 +25,10 @@ func h(w http.ResponseWriter, r *http.Request) {
 		s = config.GoEmptyConfig
 	case "go_upload":
 		s = config.GoUploadConfig
+	case "go_wechat":
+		s = config.GoWechatConfig
+	case "go_menu":
+		s = config.GoMenuConfig
 
 	}
 

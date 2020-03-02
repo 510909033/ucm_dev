@@ -1,2 +1,4 @@
-.swp
+*.swp
+*.swo
 nohub.out
+ucm_dev
