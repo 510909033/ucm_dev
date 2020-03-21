@@ -29,6 +29,10 @@ func h(w http.ResponseWriter, r *http.Request) {
 		s = config.GoWechatConfig
 	case "go_menu":
 		s = config.GoMenuConfig
+	case "go_user":
+		s = config.GoMenuConfig
+	case "go_html":
+		s = config.GoMenuConfig
 
 	}
 
