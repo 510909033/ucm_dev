@@ -7,6 +7,11 @@ import (
 	"github.com/510909033/ucm_dev/config"
 )
 
+/*
+ curl 'http://127.0.0.1:9602/go_ucm/api/ucm/get_config?projectCode=go_upload'
+
+*/
+
 func h(w http.ResponseWriter, r *http.Request) {
 	r.ParseForm()
 	var s = ""
@@ -19,6 +24,8 @@ func h(w http.ResponseWriter, r *http.Request) {
 
 	case "Golang_Memcache":
 		s = config.MemcacheConfig
+	case "Golang_Redis":
+		s = config.RedisConfig
 	case "Golang_Domain":
 		s = config.DomainConfig
 	case "go_empty":
@@ -45,3 +52,4 @@ func main() {
 
 	fmt.Println(http.ListenAndServe("0.0.0.0:9602", nil))
 }
+
